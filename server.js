@@ -4,7 +4,6 @@ const app = require('./app');
 const mongoose = require('mongoose');
 
 dotenv.config({path:'./config.env'});
-
 //mongoose
 //  .connect(process.env.LOCAL_DB)
 //  .then(() => {
